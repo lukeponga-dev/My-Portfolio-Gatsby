@@ -1,10 +1,24 @@
 import { nanoid } from 'nanoid';
+import { } from 'gatsby-plugin-google-analytics';
+
+
+
+const data = () =>
+
+(
+  <div>
+    <OutboundLink href="https://www.gatsbyjs.com/plugins/gatsby-plugin-google-analytics/">
+      Visit the Google Analytics plugin page!
+  </OutboundLink>
+  </div>
+)
+
 
 // HEAD DATA
 export const headData = {
   title: 'Luke Ponga | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Software Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
