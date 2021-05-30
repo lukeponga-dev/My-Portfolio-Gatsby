@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+import ProjectImg from '../Image/';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -41,11 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'New Zealand Website'}</h3>
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'This was an assignment i got given when i was studying web design and development. Design and develop New Zealand Information site'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://aotearoanz.online'}
                       >
                         See Live
                       </a>
@@ -63,7 +63,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href={url || 'https://github.com/therealponga1/New-Zealand-Website'}
                         >
                           Source Code
                         </a>
@@ -81,7 +81,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={url || 'https://aotearoanz.online'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
