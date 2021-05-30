@@ -34,11 +34,14 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - developed by{' '}
-          <a href="https://www.linkedin.com/in/luke-ponga-476809183" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/luke-ponga-476809183"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Luke Ponga
           </a>
         </p>
-
       </Container>
     </footer>
   );

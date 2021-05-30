@@ -1,17 +1,4 @@
 import { nanoid } from 'nanoid';
-import { } from 'gatsby-plugin-google-analytics';
-
-
-
-const data = () =>
-
-(
-  <div>
-    <OutboundLink href="https://www.gatsbyjs.com/plugins/gatsby-plugin-google-analytics/">
-      Visit the Google Analytics plugin page!
-  </OutboundLink>
-  </div>
-)
 
 
 // HEAD DATA
@@ -32,9 +19,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'My name is Luke, and I have spent my entire life in Hamilton, New Zealand. I discovered my interest for designing websites and applications when I was 11 years old. It quickly evolved into something I want to do for a living.',
-  paragraphTwo: 'Im a strong conceptual thinker with experience in software development. I have the ability and experience required to design and execute complex software projects, as well as software testing. Im committed to being a valuable asset to the company for which I work because developing programmes is a passion of mine.',
-  paragraphThree: 'Recently grauduated diploma level 6 software development. I am currently looking for entry level software development roles',
+  paragraphOne:
+    'My name is Luke, and I have spent my entire life in Hamilton, New Zealand. I discovered my interest for designing websites and applications when I was 11 years old. It quickly evolved into something I want to do for a living.',
+  paragraphTwo:
+    'Im a strong conceptual thinker with experience in software development. I have the ability and experience required to design and execute complex software projects, as well as software testing. Im committed to being a valuable asset to the company for which I work because developing programmes is a passion of mine.',
+  paragraphThree:
+    'Recently grauduated diploma level 6 software development. I am currently looking for entry level software development roles',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
