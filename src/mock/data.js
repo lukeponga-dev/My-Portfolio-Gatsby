@@ -10,9 +10,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: 'Luke Ponga',
-  subtitle: 'Im the Software Developer.',
+  title: "",
+  name: "Luke Ponga!",
+  subtitle: '',
   cta: '',
 };
 
@@ -20,11 +20,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'My name is Luke, and I have spent my entire life in Hamilton, New Zealand. I discovered my interest for designing websites and applications when I was 11 years old. It quickly evolved into something I want to do for a living.',
+    "I'm passionate about working on software projects, I discovered my interest for developing websites and applications when I was 11 years old.",
   paragraphTwo:
-    'Im a strong conceptual thinker with experience in software development. I have the ability and experience required to design and execute complex software projects, as well as software testing. Im committed to being a valuable asset to the company for which I work because developing programmes is a passion of mine.',
+    ' I have the ability and experience required to design and execute complex software projects, as well as software testing.',
   paragraphThree:
-    'Recently grauduated diploma level 6 software development. I am currently looking for entry level software development roles',
+    'Graduated diploma level 6 software development. I am currently looking for entry level software development roles',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
