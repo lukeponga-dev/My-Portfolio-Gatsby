@@ -43,21 +43,21 @@ export const projectsData = [
    {
     id: nanoid(),
     img: 'project2.png',
-    title: 'Doctor Appointments',
+    title: 'Doctors Appointments ASP.NET Web App',
     info: 'I developed doctors appointmnets for one of my assignments in software development',
-    info2: 'Doctor appointments is a web app using the asp.net core framework. The Purpose of this web app is to provid patients with an easy appointment booking systems',
+    info2: 'Doctor appointments is a web app using the asp.net core framework. The Purpose of this web app is to provid staff with an easy appointment tracking system',
     url: 'https://doctorsappointments.azurewebsites.net/',
     repo: 'https://github.com/therealponga1/Doctors_Appointments_DSD06', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project3.png',
+    title: 'Health Clinic MVC',
+    info: 'Software Development ASP.NET MVC Assessment, MVC version of my  Doctors Appointments project',
+    info2: 'This Project runs on dotnet core mvc framework ',
+    url: 'https://healthclinicmvc.azurewebsites.net/',
+    repo: 'https://github.com/therealponga1/HealthClinic_MVC_DSD-07', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
