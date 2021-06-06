@@ -58,6 +58,15 @@ export const projectsData = [
     url: 'https://healthclinicmvc.azurewebsites.net/',
     repo: 'https://github.com/therealponga1/HealthClinic_MVC_DSD-07', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project4.png',
+    title: 'Vehicle API',
+    info: 'Web api i made with .net api for storing vehicles ',
+    info2: '',
+    url: 'https://webapvehicles.azurewebsites.net/',
+    repo: 'https://github.com/lukeponga-dev/WebAPI', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -88,7 +97,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/therealponga1',
+      url: 'https://github.com/lukeponga-Dev',
     },
   ],
 };
