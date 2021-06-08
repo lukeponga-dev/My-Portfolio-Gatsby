@@ -20,12 +20,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I'm passionate about working on software projects, I discovered my interest for developing websites and applications when I was 11 years old.",
+  "I discovered my interest for developing websites and applications when I was 11 years old by using html on notepad, ever since then I’ve had a passion for it, I have the ability and experience required to design, execute and deploy software projects from my studies in web development and software development which I’ve recently graduated end of 2020.",
   paragraphTwo:
-    ' I have the ability and experience required to design and execute complex software projects, as well as software testing.',
-  paragraphThree:
-    'Graduated diploma level 6 software development. I am currently looking for entry level software development roles',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+" One of my main goals is to continue to learn new skills and abilities so someday I can teach and guide people in my position. ",
+ resume: 'https://drive.google.com/file/d/1iEhbIYwReLExSf5Lo7kK-FEoi-CcOMe8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
