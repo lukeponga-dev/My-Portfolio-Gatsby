@@ -20,10 +20,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-  "I discovered my interest for developing websites and applications when I was 11 years old by using html on notepad, ever since then I’ve had a passion for it, I have the ability and experience required to design, execute and deploy software projects from my studies in web development and software development which I’ve recently graduated end of 2020.",
+    "I discovered my interest for developing websites and applications when I was 11 years old by using html on notepad, ever since then I’ve had a passion for it, I have the ability and experience required to design, execute and deploy software projects from my studies in web development and software development which I’ve recently graduated end of 2020.",
   paragraphTwo:
-" One of my main goals is to continue to learn new skills and abilities so someday I can teach and guide people in my position. ",
- resume: 'https://drive.google.com/file/d/1iEhbIYwReLExSf5Lo7kK-FEoi-CcOMe8/view?usp=sharing', // if no resume, the button will not show up
+    " One of my main goals is to continue to learn new skills and abilities so someday I can teach and guide people in my position. ",
+  resume: 'https://drive.google.com/file/d/1iEhbIYwReLExSf5Lo7kK-FEoi-CcOMe8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -37,8 +37,8 @@ export const projectsData = [
     url: 'https://aotearoanz.online/',
     repo: 'https://github.com/therealponga1/New-Zealand-Website', // if no repo, the button will not show up
   },
-  
-   {
+
+  {
     id: nanoid(),
     img: 'project2.png',
     title: 'Doctors Appointments ASP.NET Web App',
@@ -65,8 +65,16 @@ export const projectsData = [
     url: 'https://webapvehicles.azurewebsites.net/',
     repo: 'https://github.com/lukeponga-dev/WebAPI', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'coingecko-project.png',
+    title: 'Crypto Currency Stats - CoinGeco API',
+    info: 'Website that shows crypto currency prices using an api to retrive coin data built with html5, css, javascript and bootstrap',
+    info2: '',
+    url: 'https://cryptocoinstats.netlify.app/',
+    repo: 'https://github.com/lukeponga-dev/CryptoCoins-Price-Stats', // if no repo, the button will not show up
+  },
 ];
-
 // CONTACT DATA
 export const contactData = {
   cta: '',
