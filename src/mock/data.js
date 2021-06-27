@@ -62,7 +62,7 @@ export const projectsData = [
     title: 'Vehicle API',
     info: 'Web api i made with .net api for storing vehicles ',
     info2: '',
-    url: 'https://webapvehicles.azurewebsites.net/',
+    url: 'https://carjam.azurewebsites.net/',
     repo: 'https://github.com/lukeponga-dev/WebAPI', // if no repo, the button will not show up
   },
   {
@@ -110,5 +110,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
