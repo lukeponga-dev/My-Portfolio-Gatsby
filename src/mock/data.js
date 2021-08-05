@@ -31,9 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'aotearoanz.online.png',
     title: 'New Zealand Website',
-    info: 'An Assignment I was given while i was studying web design and development',
+    info: 'Required to develop a NZ information website for Diploma of Web Design and Development',
     info2: '',
-    url: 'https://aotearoanz.online/',
+    url: 'https://nz-info.live/',
     repo: 'https://github.com/therealponga1/New-Zealand-Website', // if no repo, the button will not show up
   },
 
@@ -41,10 +41,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Doctors Appointments ASP.NET Web App',
-    info: 'I developed doctors appointmnets for one of my assignments in software development',
+    info: 'I was required to develop a web app on .net core framework for diploma of software development',
     info2:
       'Doctor appointments is a web app using the asp.net core framework. The Purpose of this web app is to provid staff with an easy appointment tracking system',
-    url: 'https://doctorsappointments.azurewebsites.net/',
+    url: '',
     repo: 'https://github.com/therealponga1/Doctors_Appointments_DSD06', // if no repo, the button will not show up
   },
   {
@@ -53,15 +53,15 @@ export const projectsData = [
     title: 'Health Clinic MVC',
     info: 'Software Development ASP.NET MVC Assessment, MVC version of my  Doctors Appointments project',
     info2: 'This Project runs on dotnet core mvc framework ',
-    url: 'https://healthclinicmvc.azurewebsites.net/',
+    url: '',
     repo: 'https://github.com/therealponga1/HealthClinic_MVC_DSD-07', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project4.png',
     title: 'Vehicle API',
-    info: 'Web api i made with .net api for storing vehicles ',
-    info2: '',
+    info: 'Web api I was required to make for software development.  ',
+    info2: 'Web api .net core framework for storing vehicles',
     url: 'https://carjam.azurewebsites.net/',
     repo: 'https://github.com/lukeponga-dev/WebAPI', // if no repo, the button will not show up
   },
@@ -69,8 +69,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'coingecko-project.PNG',
     title: 'Crypto Currency Stats - CoinGeco API',
-    info: 'Website that shows crypto currency prices using an api to retrive coin data built with html5, css, javascript and bootstrap',
-    info2: '',
+    info: 'Project me an a buddy create together to get a better understanding of apis',
+    info2:
+      'Website that shows crypto currency prices using an api to retrive coin data built with html5, css, javascript and bootstrap',
     url: 'https://cryptocoinstats.netlify.app/',
     repo: 'https://github.com/lukeponga-dev/CryptoCoins-Price-Stats', // if no repo, the button will not show up
   },
@@ -98,7 +99,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/luke-ponga-476809183',
+      url: 'https://www.linkedin.com/in/lukeponga/',
     },
     {
       id: nanoid(),
@@ -110,5 +111,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
